@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.platform.mapper.SysUserMapper">
+
+    <resultMap id="UserResultMap" type="SysUser">
+        <id column="id" property="id"/>
+        <result column="username" property="username"/>
+        <result column="password" property="password"/>
+        <result column="real_name" property="realName"/>
+        <result column="phone" property="phone"/>
+        <result column="role" property="role"/>
+        <result column="create_time" property="createTime"/>
+    </resultMap>
+
+    <select id="selectAll" resultMap="UserResultMap">
+        SELECT * FROM sys_user
+    </select>
+
+    <select id="selectById" resultMap="UserResultMap">
+        SELECT * FROM sys_user WHERE id = #{id}
+    </select>
+
+</mapper>
