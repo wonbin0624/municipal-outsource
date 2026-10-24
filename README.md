@@ -1,5 +1,6 @@
-市政外包服务一体化平台
+# 市政外包一体化平台 (Municipal-outsource)
 
+> A SpringBoot + Vue integrated platform for municipal outsourcing service management, including supplier information management, scoring assessment and settlement of service fees.（一个基于 SpringBoot+Vue 的市政外包服务一体化平台，包含供应商信息管理、考核评分以及服务费结算功能。）
 
 
 基于 Vue3 + Spring Boot 的前后端分离全栈项目，旨在实现市政外包服务从“服务商入驻”到“巡检考核”，再到“费用结算”的全流程线上化闭环管理。
