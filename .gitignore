@@ -1,3 +1,15 @@
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Java
+target/
+*.class
+
+# Node
 node_modules/
-uploads/
-*.zip
+dist/
+
+# System
+.DS_Store
